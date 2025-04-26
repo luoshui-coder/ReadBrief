@@ -1,0 +1,21 @@
+{
+  "readbrief": {
+    "enabled": true,
+    "service": "gpt-3.5-turbo",
+    "group": true,
+    "qa_enabled": true,
+    "qa_prefix": "问",
+    "prompt": "你是一个专业的文章分析师，请为以下文章生成结构化摘要，使用JSON格式返回，包含以下字段：title（标题洞察）, summary（一句话总结）, key_points（3-5个核心要点）, comment（AI评论）, tags（智能标签）, read_time（预计阅读时间）, source（文章来源）",
+    "card_enabled": true,
+    "card_api_url": "https://fireflycard-api.302ai.cn/api/saveImg"
+  },
+  "keys": {
+    "open_ai_api_key": "",
+    "model": "gpt-3.5-turbo",
+    "open_ai_api_base": "https://api.openai.com/v1",
+    "gemini_key": "",
+    "azure_deployment_id": "",
+    "azure_api_key": "",
+    "azure_api_base": ""
+  }
+} 
